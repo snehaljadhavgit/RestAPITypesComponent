@@ -1,0 +1,9 @@
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/bin/Release/netstandard2.0/RestAPITypesComponent.deps.json
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/bin/Release/netstandard2.0/RestAPITypesComponent.dll
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/bin/Release/netstandard2.0/RestAPITypesComponent.pdb
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.csprojResolveAssemblyReference.cache
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.csproj.CoreCompileInputs.cache
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.AssemblyInfoInputs.cache
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.AssemblyInfo.cs
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.dll
+/Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.pdb

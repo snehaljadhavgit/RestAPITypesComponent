@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{1C481FA6-6A9A-4069-BED3-7AD4A32EF48A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestAPITypesComponent/MainPage.xaml.cs">
+    <Files>
+      <File FileName="RestAPITypesComponent/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="RestAPITypesComponent/MainPage.xaml.cs" Line="36" Column="36" />
+      <File FileName="RestAPITypesComponent/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.RestAPITypesComponent.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/MainPage.xaml.cs" relfile="RestAPITypesComponent/MainPage.xaml.cs" line="72" column="50" />
+      <Breakpoint file="/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/MainPage.xaml.cs" relfile="RestAPITypesComponent/MainPage.xaml.cs" line="49" column="46" />
+      <Breakpoint file="/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/MainPage.xaml.cs" relfile="RestAPITypesComponent/MainPage.xaml.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

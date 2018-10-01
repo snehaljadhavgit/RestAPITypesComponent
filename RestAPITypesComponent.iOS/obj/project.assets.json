@@ -1,0 +1,4043 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.AspNetCore.Cryptography.Internal/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.0.0",
+          "Microsoft.Extensions.ObjectPool": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        }
+      },
+      "RestSharp/106.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "ServiceStack/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "2.0.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Client": "5.1.0",
+          "ServiceStack.Common": "5.1.0",
+          "System.Linq.Queryable": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Threading.Thread": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Net.Requests": "4.3.0",
+          "System.ServiceModel.Primitives": "4.4.0",
+          "System.Xml.XmlSerializer": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.Data.Common": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Dynamic.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Net.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.Requests/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.Requests.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.Requests.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Reflection.TypeExtensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ServiceModel.Primitives/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Threading.Thread/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Forms/3.0.0.446417": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/Xamarin.Forms.props": {},
+          "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "RestAPITypesComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RestSharp": "106.2.2",
+          "ServiceStack": "5.1.0",
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.AspNetCore.Cryptography.Internal/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.0.0",
+          "Microsoft.Extensions.ObjectPool": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        }
+      },
+      "RestSharp/106.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "ServiceStack/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "2.0.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Client": "5.1.0",
+          "ServiceStack.Common": "5.1.0",
+          "System.Linq.Queryable": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Threading.Thread": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Net.Requests": "4.3.0",
+          "System.ServiceModel.Primitives": "4.4.0",
+          "System.Xml.XmlSerializer": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.Data.Common": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Dynamic.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard1.3/System.Net.NetworkInformation.dll": {}
+        }
+      },
+      "System.Net.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.Requests/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard1.3/System.Net.Requests.dll": {}
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Reflection.TypeExtensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ServiceModel.Primitives/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Threading.Thread/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Forms/3.0.0.446417": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/Xamarin.Forms.props": {},
+          "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "RestAPITypesComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RestSharp": "106.2.2",
+          "ServiceStack": "5.1.0",
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.AspNetCore.Cryptography.Internal/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.0.0",
+          "Microsoft.Extensions.ObjectPool": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        }
+      },
+      "RestSharp/106.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "ServiceStack/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "2.0.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Client": "5.1.0",
+          "ServiceStack.Common": "5.1.0",
+          "System.Linq.Queryable": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Threading.Thread": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Net.Requests": "4.3.0",
+          "System.ServiceModel.Primitives": "4.4.0",
+          "System.Xml.XmlSerializer": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.Data.Common": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Dynamic.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.Requests/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Reflection.TypeExtensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ServiceModel.Primitives/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Threading.Thread/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Forms/3.0.0.446417": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/Xamarin.Forms.props": {},
+          "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "RestAPITypesComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RestSharp": "106.2.2",
+          "ServiceStack": "5.1.0",
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.AspNetCore.Cryptography.Internal/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.0.0",
+          "Microsoft.Extensions.ObjectPool": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+        }
+      },
+      "RestSharp/106.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "ServiceStack/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "2.0.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Client": "5.1.0",
+          "ServiceStack.Common": "5.1.0",
+          "System.Linq.Queryable": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Threading.Thread": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.dll": {}
+        }
+      },
+      "ServiceStack.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Net.Requests": "4.3.0",
+          "System.ServiceModel.Primitives": "4.4.0",
+          "System.Xml.XmlSerializer": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "ServiceStack.Interfaces": "5.1.0",
+          "ServiceStack.Text": "5.1.0",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.Data.Common": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Dynamic.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Net.Requests/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Reflection.TypeExtensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.ServiceModel.Primitives/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Threading.Thread/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Forms/3.0.0.446417": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/Xamarin.Forms.props": {},
+          "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "RestAPITypesComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RestSharp": "106.2.2",
+          "ServiceStack": "5.1.0",
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestAPITypesComponent.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.Cryptography.Internal/2.0.0": {
+      "sha512": "SY6GQyZZ5o09rqFmy3nhyJzx3lkFDBl0wO2Kb7EoLCPyH6dC7KB+QXysHfa9P5jHPiYB9VEkcQ9H7kQKcXQ1sw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.0.0": {
+      "sha512": "kXszvwovn6Xot8JvRVf5KL9HXHzVVirs9diPkzMDNoPWMvubXRisw1d3T2ETFCgx2MOOhfUu5+LXlybC1ITkOQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.Abstractions/2.0.0": {
+      "sha512": "IR2zlm3d/CmYbkw+cMM7M6mUAi+xsFUPfWqGYqzZVC5o6jX3xD2Z4Uf44UBaWKMBf5Z7q9dodIdXxwFPF2Hxhg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.xml",
+        "microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.0": {
+      "sha512": "v2H65ix/O11HKoxhKQpljtozsD5/1tqeXr3TYnrLgfAPIsp6kTFxIcTSENoxtew7h9X14ENqUf2lBCkyCNRUuQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.server.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
+        "microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http/2.0.0": {
+      "sha512": "2YNhcHrGxo2YufA8TYGyaEMIJwikyisZqEzHCRpIuI0D6ZXkA47U/3NJg2r/x5/gGHNM3TXO7DsqH88qRda+yg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.xml",
+        "microsoft.aspnetcore.http.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+      "sha512": "pblZLY7IfNqhQ5wwGQ0vNq2mG6W5YgZI1fk7suEuwZsGxGEADNBAyNlTALM9L8nMXdvbp6aHP/t4wHrFpcL3Sw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Extensions/2.0.0": {
+      "sha512": "lA7Bwvur19MhXrlW0w+WBXONJMSFYY5kNazflz4MNwMZMtzwHxNA6fC5sQsssYd/XvA0gMyKwp52s68uuKLR1w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.extensions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.xml",
+        "microsoft.aspnetcore.http.extensions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.extensions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.0.0": {
+      "sha512": "yk62muzFTZTKCQuo3nmVPkPvGBlM2qbdSxbX62TufuONuKQrTGQ/SwhwBbYutk5/YY7u4HETu0n9BKOn7mMgmA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.WebUtilities/2.0.0": {
+      "sha512": "RqDEwy7jdHJ0NunWydSzJrpODnsF7NPdB0KaRdG60H1bMEt4DbjcWkUb+XxjZ15uWCMi7clTQClpPuIFLwD1yQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.webutilities/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.xml",
+        "microsoft.aspnetcore.webutilities.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.webutilities.nuspec"
+      ]
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "sha512": "vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "type": "package",
+      "path": "microsoft.csharp/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.4.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+      "sha512": "Z0AK+hmLO33WAXQ5P1uPzhH7z5yjDHX/XnUefXxE//SyvCb9x4cVjND24dT5566t/yzGp8/WLD7EG9KQKZZklQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
+      "sha512": "qPG6Ip/AdHxMJ7j3z8FkkpCbV8yjtiFpf/aOpN3TwfJWbtYpN+BKV8Q+pqPMgk7XZivcju9yARaEVCS++hWopA==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "microsoft.extensions.hosting.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "sha512": "6ZCllUYGFukkymSTx3Yr0G/ajRxoNJp7/FqSxSB4fGISST54ifBhgu4Nc0ItGi3i6DqwuNd8SUyObmiC++AO2Q==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/2.0.0": {
+      "sha512": "drOmgNZCJiNEqFM/TvyqwtogS8wqoWGQCW5KB/CVGKL6VXHw8OOMdaHyspp8HPstP9UDnrnuq+8eaCaAcQg6tA==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.2.0.0.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/2.0.0": {
+      "sha512": "sAKBgjl2gWsECBLLR9K54T7/uZaP2n9GhMYHay/oOLfvpvX0+iNAlQ2NJgVE352C9Fs5CDV3VbNTK8T2aNKQFA==",
+      "type": "package",
+      "path": "microsoft.extensions.options/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.2.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "sha512": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.Net.Http.Headers/2.0.0": {
+      "sha512": "Rm9zeNCWyNrGnysHdRXJpNfeDVlPzzFuidSuRLRNvOrnw71vgNPlR4H9wHo2hG/oSaruukqNjK06MDQqb+eXhA==",
+      "type": "package",
+      "path": "microsoft.net.http.headers/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll",
+        "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
+        "microsoft.net.http.headers.2.0.0.nupkg.sha512",
+        "microsoft.net.http.headers.nuspec"
+      ]
+    },
+    "RestSharp/106.2.2": {
+      "sha512": "PEz5Wy6W7phha9pvvxmIntYb2tQTvWwm4G0JlOMFApBtzNfFLxLqJxhZG7Fd+78JJvyRiqGGQtjtW6Hc86PTag==",
+      "type": "package",
+      "path": "restsharp/106.2.2",
+      "files": [
+        "lib/net452/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.dll",
+        "restsharp.106.2.2.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "ServiceStack/5.1.0": {
+      "sha512": "uC5SbVVwCz0kkflVSSlfPrXjqCV6mdSWVIMZIthLYfdHV0/LpS2S3KxyxSdcaBHBDmoP/fUq0FC28Qb8iilIIw==",
+      "type": "package",
+      "path": "servicestack/5.1.0",
+      "files": [
+        "lib/net45/ServiceStack.dll",
+        "lib/net45/ServiceStack.xml",
+        "lib/netstandard2.0/ServiceStack.dll",
+        "lib/netstandard2.0/ServiceStack.xml",
+        "servicestack.5.1.0.nupkg.sha512",
+        "servicestack.nuspec"
+      ]
+    },
+    "ServiceStack.Client/5.1.0": {
+      "sha512": "uMuMvsna1QuZa4q5OBc9PMrD3fIJtoWEwjIg2ACebJpfYrVTauwxUrLPqN6uk2I827Ujo2DnZZ0kTmQI4URzMw==",
+      "type": "package",
+      "path": "servicestack.client/5.1.0",
+      "files": [
+        "lib/net45/ServiceStack.Client.dll",
+        "lib/net45/ServiceStack.Client.xml",
+        "lib/netstandard2.0/ServiceStack.Client.deps.json",
+        "lib/netstandard2.0/ServiceStack.Client.dll",
+        "lib/netstandard2.0/ServiceStack.Client.xml",
+        "servicestack.client.5.1.0.nupkg.sha512",
+        "servicestack.client.nuspec"
+      ]
+    },
+    "ServiceStack.Common/5.1.0": {
+      "sha512": "K07M1Vb2JsHkE4g0e1UDLhjkB70R9aEDQB7oFfzBG1/DPPy10qBNBS8pM6PlnrZyQvOqJGQvIfieA2mD9TN8Wg==",
+      "type": "package",
+      "path": "servicestack.common/5.1.0",
+      "files": [
+        "lib/net45/ServiceStack.Common.dll",
+        "lib/net45/ServiceStack.Common.xml",
+        "lib/netstandard2.0/ServiceStack.Common.deps.json",
+        "lib/netstandard2.0/ServiceStack.Common.dll",
+        "lib/netstandard2.0/ServiceStack.Common.xml",
+        "servicestack.common.5.1.0.nupkg.sha512",
+        "servicestack.common.nuspec"
+      ]
+    },
+    "ServiceStack.Interfaces/5.1.0": {
+      "sha512": "wMGh7bfZh1U0VrwGAAPMVXucs2O5vZew2GjyOMlCBJfrljrsJbQfP1kx0vw8HZz/gAOxByaMSaaPoX0A2oKbIw==",
+      "type": "package",
+      "path": "servicestack.interfaces/5.1.0",
+      "files": [
+        "lib/net45/ServiceStack.Interfaces.dll",
+        "lib/net45/ServiceStack.Interfaces.xml",
+        "lib/netstandard2.0/ServiceStack.Interfaces.deps.json",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.xml",
+        "servicestack.interfaces.5.1.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
+      ]
+    },
+    "ServiceStack.Text/5.1.0": {
+      "sha512": "4Zcv/RjXxflsPGPkOR1MaUp+nSgVAbRWliWg7kOMcsGood+NT9pAgWTA9lZeABBt/YP0nVttQWfkVebv7s40hQ==",
+      "type": "package",
+      "path": "servicestack.text/5.1.0",
+      "files": [
+        "lib/net45/ServiceStack.Text.dll",
+        "lib/net45/ServiceStack.Text.xml",
+        "lib/netstandard2.0/ServiceStack.Text.deps.json",
+        "lib/netstandard2.0/ServiceStack.Text.dll",
+        "lib/netstandard2.0/ServiceStack.Text.xml",
+        "servicestack.text.5.1.0.nupkg.sha512",
+        "servicestack.text.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Collections.Specialized/4.3.0": {
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "type": "package",
+      "path": "system.collections.specialized/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Collections.Specialized.dll",
+        "lib/netstandard1.3/System.Collections.Specialized.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Collections.Specialized.dll",
+        "ref/netstandard1.3/System.Collections.Specialized.dll",
+        "ref/netstandard1.3/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/de/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/es/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/fr/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/it/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/ja/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/ko/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/ru/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/zh-hans/System.Collections.Specialized.xml",
+        "ref/netstandard1.3/zh-hant/System.Collections.Specialized.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.collections.specialized.4.3.0.nupkg.sha512",
+        "system.collections.specialized.nuspec"
+      ]
+    },
+    "System.ComponentModel.Primitives/4.3.0": {
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "type": "package",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/System.ComponentModel.Primitives.dll",
+        "lib/netstandard1.0/System.ComponentModel.Primitives.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.ComponentModel.Primitives.dll",
+        "ref/netstandard1.0/System.ComponentModel.Primitives.dll",
+        "ref/netstandard1.0/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.Primitives.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.primitives.4.3.0.nupkg.sha512",
+        "system.componentmodel.primitives.nuspec"
+      ]
+    },
+    "System.Data.Common/4.3.0": {
+      "sha512": "lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "type": "package",
+      "path": "system.data.common/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.Common.dll",
+        "lib/netstandard1.2/System.Data.Common.dll",
+        "lib/portable-net451+win8+wp8+wpa81/System.Data.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.Common.dll",
+        "ref/netstandard1.2/System.Data.Common.dll",
+        "ref/netstandard1.2/System.Data.Common.xml",
+        "ref/netstandard1.2/de/System.Data.Common.xml",
+        "ref/netstandard1.2/es/System.Data.Common.xml",
+        "ref/netstandard1.2/fr/System.Data.Common.xml",
+        "ref/netstandard1.2/it/System.Data.Common.xml",
+        "ref/netstandard1.2/ja/System.Data.Common.xml",
+        "ref/netstandard1.2/ko/System.Data.Common.xml",
+        "ref/netstandard1.2/ru/System.Data.Common.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.Common.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/System.Data.Common.dll",
+        "ref/portable-net451+win8+wp8+wpa81/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/de/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/es/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/fr/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/it/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/ja/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/ko/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/ru/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/zh-hans/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/zh-hant/System.Data.Common.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.data.common.4.3.0.nupkg.sha512",
+        "system.data.common.nuspec"
+      ]
+    },
+    "System.Dynamic.Runtime/4.3.0": {
+      "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
+      "type": "package",
+      "path": "system.dynamic.runtime/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Dynamic.Runtime.dll",
+        "lib/netstandard1.3/System.Dynamic.Runtime.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Dynamic.Runtime.dll",
+        "ref/netcore50/System.Dynamic.Runtime.xml",
+        "ref/netcore50/de/System.Dynamic.Runtime.xml",
+        "ref/netcore50/es/System.Dynamic.Runtime.xml",
+        "ref/netcore50/fr/System.Dynamic.Runtime.xml",
+        "ref/netcore50/it/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ja/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ko/System.Dynamic.Runtime.xml",
+        "ref/netcore50/ru/System.Dynamic.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/System.Dynamic.Runtime.dll",
+        "ref/netstandard1.0/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/de/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/es/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/it/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/System.Dynamic.Runtime.dll",
+        "ref/netstandard1.3/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/de/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/es/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/it/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Dynamic.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Dynamic.Runtime.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Dynamic.Runtime.dll",
+        "system.dynamic.runtime.4.3.0.nupkg.sha512",
+        "system.dynamic.runtime.nuspec"
+      ]
+    },
+    "System.Linq.Queryable/4.3.0": {
+      "sha512": "In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
+      "type": "package",
+      "path": "system.linq.queryable/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/monoandroid10/_._",
+        "lib/monotouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Linq.Queryable.dll",
+        "lib/netstandard1.3/System.Linq.Queryable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/monoandroid10/_._",
+        "ref/monotouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Linq.Queryable.dll",
+        "ref/netcore50/System.Linq.Queryable.xml",
+        "ref/netcore50/de/System.Linq.Queryable.xml",
+        "ref/netcore50/es/System.Linq.Queryable.xml",
+        "ref/netcore50/fr/System.Linq.Queryable.xml",
+        "ref/netcore50/it/System.Linq.Queryable.xml",
+        "ref/netcore50/ja/System.Linq.Queryable.xml",
+        "ref/netcore50/ko/System.Linq.Queryable.xml",
+        "ref/netcore50/ru/System.Linq.Queryable.xml",
+        "ref/netcore50/zh-hans/System.Linq.Queryable.xml",
+        "ref/netcore50/zh-hant/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/System.Linq.Queryable.dll",
+        "ref/netstandard1.0/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/de/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/es/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/fr/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/it/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/ja/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/ko/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/ru/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/zh-hans/System.Linq.Queryable.xml",
+        "ref/netstandard1.0/zh-hant/System.Linq.Queryable.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.linq.queryable.4.3.0.nupkg.sha512",
+        "system.linq.queryable.nuspec"
+      ]
+    },
+    "System.Net.NetworkInformation/4.3.0": {
+      "sha512": "zNVmWVry0pAu7lcrRBhwwU96WUdbsrGL3azyzsbXmVNptae1+Za+UgOe9Z6s8iaWhPn7/l4wQqhC56HZWq7tkg==",
+      "type": "package",
+      "path": "system.net.networkinformation/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Net.NetworkInformation.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Net.NetworkInformation.dll",
+        "ref/netcore50/System.Net.NetworkInformation.dll",
+        "ref/netcore50/System.Net.NetworkInformation.xml",
+        "ref/netcore50/de/System.Net.NetworkInformation.xml",
+        "ref/netcore50/es/System.Net.NetworkInformation.xml",
+        "ref/netcore50/fr/System.Net.NetworkInformation.xml",
+        "ref/netcore50/it/System.Net.NetworkInformation.xml",
+        "ref/netcore50/ja/System.Net.NetworkInformation.xml",
+        "ref/netcore50/ko/System.Net.NetworkInformation.xml",
+        "ref/netcore50/ru/System.Net.NetworkInformation.xml",
+        "ref/netcore50/zh-hans/System.Net.NetworkInformation.xml",
+        "ref/netcore50/zh-hant/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/System.Net.NetworkInformation.dll",
+        "ref/netstandard1.0/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/de/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/es/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/fr/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/it/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/ja/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/ko/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/ru/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/zh-hans/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/zh-hant/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/System.Net.NetworkInformation.dll",
+        "ref/netstandard1.3/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/de/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/es/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/fr/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/it/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/ja/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/ko/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/ru/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.NetworkInformation.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/linux/lib/netstandard1.3/System.Net.NetworkInformation.dll",
+        "runtimes/osx/lib/netstandard1.3/System.Net.NetworkInformation.dll",
+        "runtimes/win/lib/net46/System.Net.NetworkInformation.dll",
+        "runtimes/win/lib/netcore50/System.Net.NetworkInformation.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.NetworkInformation.dll",
+        "system.net.networkinformation.4.3.0.nupkg.sha512",
+        "system.net.networkinformation.nuspec"
+      ]
+    },
+    "System.Net.Primitives/4.3.0": {
+      "sha512": "qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
+      "type": "package",
+      "path": "system.net.primitives/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Net.Primitives.dll",
+        "ref/netcore50/System.Net.Primitives.xml",
+        "ref/netcore50/de/System.Net.Primitives.xml",
+        "ref/netcore50/es/System.Net.Primitives.xml",
+        "ref/netcore50/fr/System.Net.Primitives.xml",
+        "ref/netcore50/it/System.Net.Primitives.xml",
+        "ref/netcore50/ja/System.Net.Primitives.xml",
+        "ref/netcore50/ko/System.Net.Primitives.xml",
+        "ref/netcore50/ru/System.Net.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Net.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Net.Primitives.xml",
+        "ref/netstandard1.0/System.Net.Primitives.dll",
+        "ref/netstandard1.0/System.Net.Primitives.xml",
+        "ref/netstandard1.0/de/System.Net.Primitives.xml",
+        "ref/netstandard1.0/es/System.Net.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Net.Primitives.xml",
+        "ref/netstandard1.0/it/System.Net.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Net.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Net.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Net.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Net.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Net.Primitives.xml",
+        "ref/netstandard1.1/System.Net.Primitives.dll",
+        "ref/netstandard1.1/System.Net.Primitives.xml",
+        "ref/netstandard1.1/de/System.Net.Primitives.xml",
+        "ref/netstandard1.1/es/System.Net.Primitives.xml",
+        "ref/netstandard1.1/fr/System.Net.Primitives.xml",
+        "ref/netstandard1.1/it/System.Net.Primitives.xml",
+        "ref/netstandard1.1/ja/System.Net.Primitives.xml",
+        "ref/netstandard1.1/ko/System.Net.Primitives.xml",
+        "ref/netstandard1.1/ru/System.Net.Primitives.xml",
+        "ref/netstandard1.1/zh-hans/System.Net.Primitives.xml",
+        "ref/netstandard1.1/zh-hant/System.Net.Primitives.xml",
+        "ref/netstandard1.3/System.Net.Primitives.dll",
+        "ref/netstandard1.3/System.Net.Primitives.xml",
+        "ref/netstandard1.3/de/System.Net.Primitives.xml",
+        "ref/netstandard1.3/es/System.Net.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Net.Primitives.xml",
+        "ref/netstandard1.3/it/System.Net.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Net.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Net.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Net.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.net.primitives.4.3.0.nupkg.sha512",
+        "system.net.primitives.nuspec"
+      ]
+    },
+    "System.Net.Requests/4.3.0": {
+      "sha512": "OZNUuAs0kDXUzm7U5NZ1ojVta5YFZmgT2yxBqsQ7Eseq5Ahz88LInGRuNLJ/NP2F8W1q7tse1pKDthj3reF5QA==",
+      "type": "package",
+      "path": "system.net.requests/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/_._",
+        "ref/netcore50/System.Net.Requests.dll",
+        "ref/netcore50/System.Net.Requests.xml",
+        "ref/netcore50/de/System.Net.Requests.xml",
+        "ref/netcore50/es/System.Net.Requests.xml",
+        "ref/netcore50/fr/System.Net.Requests.xml",
+        "ref/netcore50/it/System.Net.Requests.xml",
+        "ref/netcore50/ja/System.Net.Requests.xml",
+        "ref/netcore50/ko/System.Net.Requests.xml",
+        "ref/netcore50/ru/System.Net.Requests.xml",
+        "ref/netcore50/zh-hans/System.Net.Requests.xml",
+        "ref/netcore50/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.0/System.Net.Requests.dll",
+        "ref/netstandard1.0/System.Net.Requests.xml",
+        "ref/netstandard1.0/de/System.Net.Requests.xml",
+        "ref/netstandard1.0/es/System.Net.Requests.xml",
+        "ref/netstandard1.0/fr/System.Net.Requests.xml",
+        "ref/netstandard1.0/it/System.Net.Requests.xml",
+        "ref/netstandard1.0/ja/System.Net.Requests.xml",
+        "ref/netstandard1.0/ko/System.Net.Requests.xml",
+        "ref/netstandard1.0/ru/System.Net.Requests.xml",
+        "ref/netstandard1.0/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.0/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.1/System.Net.Requests.dll",
+        "ref/netstandard1.1/System.Net.Requests.xml",
+        "ref/netstandard1.1/de/System.Net.Requests.xml",
+        "ref/netstandard1.1/es/System.Net.Requests.xml",
+        "ref/netstandard1.1/fr/System.Net.Requests.xml",
+        "ref/netstandard1.1/it/System.Net.Requests.xml",
+        "ref/netstandard1.1/ja/System.Net.Requests.xml",
+        "ref/netstandard1.1/ko/System.Net.Requests.xml",
+        "ref/netstandard1.1/ru/System.Net.Requests.xml",
+        "ref/netstandard1.1/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.1/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.3/System.Net.Requests.dll",
+        "ref/netstandard1.3/System.Net.Requests.xml",
+        "ref/netstandard1.3/de/System.Net.Requests.xml",
+        "ref/netstandard1.3/es/System.Net.Requests.xml",
+        "ref/netstandard1.3/fr/System.Net.Requests.xml",
+        "ref/netstandard1.3/it/System.Net.Requests.xml",
+        "ref/netstandard1.3/ja/System.Net.Requests.xml",
+        "ref/netstandard1.3/ko/System.Net.Requests.xml",
+        "ref/netstandard1.3/ru/System.Net.Requests.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.Requests.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Net.Requests.dll",
+        "runtimes/win/lib/net46/_._",
+        "runtimes/win/lib/netstandard1.3/System.Net.Requests.dll",
+        "system.net.requests.4.3.0.nupkg.sha512",
+        "system.net.requests.nuspec"
+      ]
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "type": "package",
+      "path": "system.reflection.emit/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/monotouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/net45/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/xamarinmac20/_._",
+        "system.reflection.emit.4.3.0.nupkg.sha512",
+        "system.reflection.emit.nuspec"
+      ]
+    },
+    "System.Reflection.TypeExtensions/4.3.0": {
+      "sha512": "7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
+      "type": "package",
+      "path": "system.reflection.typeextensions/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Reflection.TypeExtensions.dll",
+        "lib/net462/System.Reflection.TypeExtensions.dll",
+        "lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "lib/netstandard1.5/System.Reflection.TypeExtensions.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Reflection.TypeExtensions.dll",
+        "ref/net462/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.3/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.3/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/de/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/es/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/fr/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/it/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ja/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ko/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/ru/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard1.5/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/de/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/es/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/fr/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/it/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ja/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ko/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/ru/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/zh-hans/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard1.5/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "system.reflection.typeextensions.4.3.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec"
+      ]
+    },
+    "System.Runtime/4.3.0": {
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "type": "package",
+      "path": "system.runtime/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.dll",
+        "lib/portable-net45+win8+wp80+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.0/System.Runtime.dll",
+        "ref/netstandard1.0/System.Runtime.xml",
+        "ref/netstandard1.0/de/System.Runtime.xml",
+        "ref/netstandard1.0/es/System.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.xml",
+        "ref/netstandard1.0/it/System.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.2/System.Runtime.dll",
+        "ref/netstandard1.2/System.Runtime.xml",
+        "ref/netstandard1.2/de/System.Runtime.xml",
+        "ref/netstandard1.2/es/System.Runtime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.xml",
+        "ref/netstandard1.2/it/System.Runtime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.3/System.Runtime.dll",
+        "ref/netstandard1.3/System.Runtime.xml",
+        "ref/netstandard1.3/de/System.Runtime.xml",
+        "ref/netstandard1.3/es/System.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Runtime.xml",
+        "ref/netstandard1.3/it/System.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.5/System.Runtime.dll",
+        "ref/netstandard1.5/System.Runtime.xml",
+        "ref/netstandard1.5/de/System.Runtime.xml",
+        "ref/netstandard1.5/es/System.Runtime.xml",
+        "ref/netstandard1.5/fr/System.Runtime.xml",
+        "ref/netstandard1.5/it/System.Runtime.xml",
+        "ref/netstandard1.5/ja/System.Runtime.xml",
+        "ref/netstandard1.5/ko/System.Runtime.xml",
+        "ref/netstandard1.5/ru/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.xml",
+        "ref/portable-net45+win8+wp80+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.0.nupkg.sha512",
+        "system.runtime.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "type": "package",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Runtime.Serialization.Primitives.dll",
+        "lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.nuspec"
+      ]
+    },
+    "System.ServiceModel.Primitives/4.4.0": {
+      "sha512": "6rATyMUeeOPVY7XzoneoyzGKVCc62gGl/A6SKrlY0dX0bnMprIrXZF1AXy9Y8ne49JU/2RGGeldFbATYONc/XQ==",
+      "type": "package",
+      "path": "system.servicemodel.primitives/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.ServiceModel.Primitives.dll",
+        "lib/net461/System.ServiceModel.Primitives.dll",
+        "lib/netcore50/System.ServiceModel.Primitives.dll",
+        "lib/netstandard1.3/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "lib/portable-net45+win8+wp8/_._",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.ServiceModel.Primitives.dll",
+        "ref/net461/System.ServiceModel.Primitives.dll",
+        "ref/netcore50/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.0/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.1/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.3/System.ServiceModel.Primitives.dll",
+        "ref/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "ref/portable-net45+win8+wp8/_._",
+        "ref/win8/_._",
+        "ref/wp8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.primitives.4.4.0.nupkg.sha512",
+        "system.servicemodel.primitives.nuspec",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/4.4.0": {
+      "sha512": "l/tYeikqMHX2MD2jzrHDfR9ejrpTTF7wvAEbR51AMvzip1wSJgiURbDik4iv/w7ZgytmTD/hlwpplEhF9bmFNw==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.4.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Thread/4.3.0": {
+      "sha512": "OHmbT+Zz065NKII/ZHcH9XO1dEuLGI1L2k7uYss+9C1jLxTC9kTZZuzUOyXHayRk+dft9CiDf3I/QZ0t8JKyBQ==",
+      "type": "package",
+      "path": "system.threading.thread/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Threading.Thread.dll",
+        "lib/netcore50/_._",
+        "lib/netstandard1.3/System.Threading.Thread.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Threading.Thread.dll",
+        "ref/netstandard1.3/System.Threading.Thread.dll",
+        "ref/netstandard1.3/System.Threading.Thread.xml",
+        "ref/netstandard1.3/de/System.Threading.Thread.xml",
+        "ref/netstandard1.3/es/System.Threading.Thread.xml",
+        "ref/netstandard1.3/fr/System.Threading.Thread.xml",
+        "ref/netstandard1.3/it/System.Threading.Thread.xml",
+        "ref/netstandard1.3/ja/System.Threading.Thread.xml",
+        "ref/netstandard1.3/ko/System.Threading.Thread.xml",
+        "ref/netstandard1.3/ru/System.Threading.Thread.xml",
+        "ref/netstandard1.3/zh-hans/System.Threading.Thread.xml",
+        "ref/netstandard1.3/zh-hant/System.Threading.Thread.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.thread.4.3.0.nupkg.sha512",
+        "system.threading.thread.nuspec"
+      ]
+    },
+    "System.Xml.XmlSerializer/4.3.0": {
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
+      "type": "package",
+      "path": "system.xml.xmlserializer/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Xml.XmlSerializer.dll",
+        "lib/netstandard1.3/System.Xml.XmlSerializer.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Xml.XmlSerializer.dll",
+        "ref/netcore50/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/de/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/es/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/fr/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/it/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/ja/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/ko/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/ru/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/zh-hans/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/zh-hant/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/System.Xml.XmlSerializer.dll",
+        "ref/netstandard1.0/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/de/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/es/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/fr/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/it/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/ja/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/ko/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/ru/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/zh-hans/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/zh-hant/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/System.Xml.XmlSerializer.dll",
+        "ref/netstandard1.3/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/de/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/es/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/fr/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/it/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/ja/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/ko/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/ru/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/zh-hans/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/zh-hant/System.Xml.XmlSerializer.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll",
+        "system.xml.xmlserializer.4.3.0.nupkg.sha512",
+        "system.xml.xmlserializer.nuspec"
+      ]
+    },
+    "Xamarin.Forms/3.0.0.446417": {
+      "sha512": "9Q6dING0FdSiOlsWUdNUzNiZgEljZ7rez5rn3+77+h0hfaFjSyV0tZQ1y2u2pXzRqgWNjDH3rrcCSoKgkMIxzA==",
+      "type": "package",
+      "path": "xamarin.forms/3.0.0.446417",
+      "files": [
+        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard1.0/Mono.Cecil.dll",
+        "build/netstandard1.0/System.CodeDom.dll",
+        "build/netstandard1.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard1.0/Xamarin.Forms.Core.dll",
+        "build/netstandard1.0/Xamarin.Forms.DefaultItems.props",
+        "build/netstandard1.0/Xamarin.Forms.DefaultItems.targets",
+        "build/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "build/netstandard1.0/Xamarin.Forms.props",
+        "build/netstandard1.0/Xamarin.Forms.targets",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/System.CodeDom.dll",
+        "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard2.0/Xamarin.Forms.Core.dll",
+        "build/netstandard2.0/Xamarin.Forms.DefaultItems.props",
+        "build/netstandard2.0/Xamarin.Forms.DefaultItems.targets",
+        "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "build/netstandard2.0/Xamarin.Forms.props",
+        "build/netstandard2.0/Xamarin.Forms.targets",
+        "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
+        "lib/MonoAndroid10/FormsViewGroup.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/tizen40/Xamarin.Forms.Core.dll",
+        "lib/tizen40/Xamarin.Forms.Core.pdb",
+        "lib/tizen40/Xamarin.Forms.Core.xml",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.pdb",
+        "lib/tizen40/Xamarin.Forms.Platform.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.pdb",
+        "lib/tizen40/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.xml",
+        "xamarin.forms.3.0.0.446417.nupkg.sha512",
+        "xamarin.forms.nuspec"
+      ]
+    },
+    "RestAPITypesComponent/1.0.0": {
+      "type": "project",
+      "path": "../RestAPITypesComponent/RestAPITypesComponent.csproj",
+      "msbuildProject": "../RestAPITypesComponent/RestAPITypesComponent.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "RestAPITypesComponent >= 1.0.0",
+      "Xamarin.Forms >= 3.0.0.446417"
+    ]
+  },
+  "packageFolders": {
+    "/Users/sjadhav/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent.iOS/RestAPITypesComponent.iOS.csproj",
+      "projectName": "RestAPITypesComponent.iOS",
+      "projectPath": "/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent.iOS/RestAPITypesComponent.iOS.csproj",
+      "packagesPath": "/Users/sjadhav/.nuget/packages/",
+      "outputPath": "/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent.iOS/obj",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/sjadhav/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/RestAPITypesComponent.csproj": {
+              "projectPath": "/Users/sjadhav/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/RestAPITypesComponent.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "3.0.0.446417"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
