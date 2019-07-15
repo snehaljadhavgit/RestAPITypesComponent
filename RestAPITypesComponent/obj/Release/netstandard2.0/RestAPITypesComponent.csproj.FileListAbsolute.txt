@@ -7,3 +7,8 @@
 /Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.AssemblyInfo.cs
 /Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.dll
 /Users/sjadhav/Projects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.pdb
+/Users/snehaljadhav/Documents/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.csproj.CoreCompileInputs.cache
+/Users/snehaljadhav/Documents/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.AssemblyInfoInputs.cache
+/Users/snehaljadhav/Documents/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.AssemblyInfo.cs
+/Users/snehaljadhav/Documents/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.dll
+/Users/snehaljadhav/Documents/XamarinProjects/RestAPITypesComponent/RestAPITypesComponent/obj/Release/netstandard2.0/RestAPITypesComponent.pdb
